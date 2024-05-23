@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícia - Exemplo</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .noticia {
+            height: 100vh; /* altura da tela inteira */
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow-y: auto; /* adicione rolagem vertical se necessário */
+        }
+        
+        .noticia img {
+            width: 840px;
+            border-radius: 24px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .noticia h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .noticia p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .noticia .data {
+            font-style: italic;
+            color: #666;
+        }
+        
+        .noticia .autor {
+            font-weight: bold;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            font-family: "Archivo Black";
+            color: #60A5FA;
+            padding: 32px;
+            border-bottom: solid 1px black;
+        }
+        .textoNoticia{
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HEALTH NEWS</h1>
+    </header>
+    <div class="noticia">
+        <h1>Cloroquina e COVID-19: O Que a Ciência Diz</h1>
+        <img src="../../src/cloroquina.jpg" alt="Imagem da Notícia">
+        <p class="textoNoticia">
+            A cloroquina e a hidroxicloroquina foram inicialmente consideradas para o tratamento da COVID-19, mas estudos científicos posteriores mostraram que elas não são eficazes e podem causar efeitos colaterais graves. Pesquisas publicadas no Journal of the American Medical Association e outras revistas renomadas indicam que esses medicamentos não melhoram os resultados em pacientes com COVID-19. Além disso, a cloroquina pode causar efeitos colaterais sérios, como arritmias cardíacas e danos hepáticos. A comunidade científica e as agências de saúde, como a FDA e a OMS, recomendam tratamentos baseados em evidências e vacinas aprovadas para combater a doença. O uso indiscriminado de medicamentos não comprovados pode desviar recursos e atenção de tratamentos eficazes, além de colocar em risco a saúde dos pacientes.        </p>
+        <p class="data">Publicado em: 23 de Maio de 2024</p>
+    </div>
+</body>
+</html>

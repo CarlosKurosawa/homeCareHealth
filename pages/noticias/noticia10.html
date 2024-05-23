@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícia - Exemplo</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .noticia {
+            height: 100vh; /* altura da tela inteira */
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow-y: auto; /* adicione rolagem vertical se necessário */
+        }
+        
+        .noticia img {
+            width: 840px;
+            border-radius: 24px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .noticia h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .noticia p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .noticia .data {
+            font-style: italic;
+            color: #666;
+        }
+        
+        .noticia .autor {
+            font-weight: bold;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            font-family: "Archivo Black";
+            color: #60A5FA;
+            padding: 32px;
+            border-bottom: solid 1px black;
+        }
+        .textoNoticia{
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HEALTH NEWS</h1>
+    </header>
+    <div class="noticia">
+        <h1>Câncer de Próstata: Eficácia da Detecção Precoce</h1>
+        <img src="../../src/cancer.jpeg" alt="Imagem da Notícia">
+        <p class="textoNoticia">
+            A detecção precoce do câncer de próstata aumenta significativamente as chances de tratamento bem-sucedido. Exames regulares, como o PSA (antígeno prostático específico) e o toque retal, são recomendados para homens a partir de certa idade ou com fatores de risco. Pesquisas indicam que a detecção precoce pode reduzir a mortalidade por câncer de próstata. O PSA é um exame de sangue que mede os níveis de uma proteína produzida pela próstata, enquanto o toque retal permite que o médico sinta a presença de nódulos ou outras anormalidades. A conscientização sobre a importância da detecção precoce é fundamental para que os homens realizem exames regulares e consultem profissionais de saúde para orientação. Além disso, a detecção precoce pode levar a tratamentos menos invasivos e melhores resultados a longo prazo.        </p>
+        <p class="data">Publicado em: 23 de Maio de 2024</p>
+    </div>
+</body>
+</html>

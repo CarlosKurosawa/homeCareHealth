@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícia - Exemplo</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .noticia {
+            height: 100vh; /* altura da tela inteira */
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow-y: auto; /* adicione rolagem vertical se necessário */
+        }
+        
+        .noticia img {
+            width: 840px;
+            border-radius: 24px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .noticia h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .noticia p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .noticia .data {
+            font-style: italic;
+            color: #666;
+        }
+        
+        .noticia .autor {
+            font-weight: bold;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            font-family: "Archivo Black";
+            color: #60A5FA;
+            padding: 32px;
+            border-bottom: solid 1px black;
+        }
+        .textoNoticia{
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HEALTH NEWS</h1>
+    </header>
+    <div class="noticia">
+        <h1>Antibióticos: Uso Correto e Riscos da Automedicação Sem Conhecimento</h1>
+        <img src="../../src/automedicação.jpg" alt="Imagem da Notícia">
+        <p class="textoNoticia">
+            O uso correto de antibióticos é vital para combater infecções bacterianas e prevenir a resistência antimicrobiana. Automedicação e uso inadequado de antibióticos podem levar ao desenvolvimento de superbactérias. A resistência aos antibióticos ocorre quando as bactérias evoluem para resistir aos efeitos dos medicamentos, tornando as infecções mais difíceis de tratar. Profissionais de saúde recomendam seguir prescrições médicas e nunca usar antibióticos sem orientação profissional. A OMS destaca que a resistência aos antibióticos é uma das maiores ameaças à saúde global, e o uso responsável desses medicamentos é fundamental para preservar sua eficácia. Além disso, é importante completar o curso completo de antibióticos prescritos, mesmo que os sintomas desapareçam, para garantir a eliminação total das bactérias.        </p>
+        <p class="data">Publicado em: 23 de Maio de 2024</p>
+    </div>
+</body>
+</html>

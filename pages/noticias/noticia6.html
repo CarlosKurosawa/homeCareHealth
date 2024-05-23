@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícia - Exemplo</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .noticia {
+            height: 100vh; /* altura da tela inteira */
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow-y: auto; /* adicione rolagem vertical se necessário */
+        }
+        
+        .noticia img {
+            width: 840px;
+            border-radius: 24px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .noticia h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .noticia p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .noticia .data {
+            font-style: italic;
+            color: #666;
+        }
+        
+        .noticia .autor {
+            font-weight: bold;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            font-family: "Archivo Black";
+            color: #60A5FA;
+            padding: 32px;
+            border-bottom: solid 1px black;
+        }
+        .textoNoticia{
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HEALTH NEWS</h1>
+    </header>
+    <div class="noticia">
+        <h1>Segurança das Vacinas de RNA Mensageiro</h1>
+        <img src="../../src/rna.jpg" alt="Imagem da Notícia">
+        <p class="textoNoticia">
+            As vacinas de RNA mensageiro, como as da COVID-19, passaram por extensivos testes de segurança e eficácia. Estudos publicados em revistas científicas, como o New England Journal of Medicine, demonstram que essas vacinas são seguras e eficazes na prevenção de doenças graves causadas pelo coronavírus. As vacinas de mRNA funcionam instruindo as células a produzirem uma proteína semelhante à encontrada no vírus, o que estimula uma resposta imunológica sem causar a doença. As reações adversas são raras e geralmente leves, como dor no local da injeção, febre e fadiga, reforçando a importância da vacinação para o controle de pandemias. A vacinação em massa tem sido crucial para reduzir a disseminação do vírus e diminuir as taxas de mortalidade. Além disso, as vacinas de mRNA têm mostrado eficácia contra várias variantes do vírus, proporcionando uma proteção ampla.        </p>
+        <p class="data">Publicado em: 23 de Maio de 2024</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Nunito";
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: #1D4ED8; 
+}
+
+a:visited {
+    color: inherit;
+}
+.cabeca{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    gap:70%;
+    border-bottom: 1px solid #1D4ED8; 
+    background-color: #F9F9F9;
+}
+.logo{
+    height: 52px;
+}
+.menu{
+    display: flex;
+    gap:32px;
+}
+.inicio{
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 220px;
+    height: 700px;
+    border-bottom: #1D4ED8 1px solid;
+}
+.inicio h1{
+    width: 4.9375in;
+    text-align: left;
+    font-size: 42px;
+    font-weight: 900;
+}
+.inicio img{
+    width: 658px;
+    height: 443;
+}
+.inicio p{
+    text-align: left;
+    width: 430px;
+    color: #767676;
+    font-size: 18px;
+}
+.missao{
+    display: flex;
+    flex-direction: row;
+    height: 766px;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    border-bottom: #1D4ED8 1px solid;
+
+}
+.missao h1{
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+.missao p{
+    font-weight: 500;
+    color: #767676;
+    width: 610px;
+}
+.servicos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F9F9F9;
+    height: 871px;
+    gap:120px;
+    border-bottom: #1D4ED8 1px solid;
+}
+.servicosItem{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.servicosItem div{
+    display: flex;
+    flex-direction: column;
+    width: 352px;
+    height: 352px;
+    border-bottom: #1D4ED8 2px solid;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.servicos h1{
+    color: #0F241D;
+    font-weight: 800;
+}
+.servicos h2{
+    color: #0F241D;
+    font-weight: 800;
+    margin-bottom: 4px;
+}
+
+.servicos img{
+    margin-bottom: 16px;
+}
+.servicosItem span{
+        width: 256px;
+        color: #767676;
+        font-weight: 500;
+}
+.contato{
+    display: flex;
+    flex-direction: row;
+    height: 583px;
+    justify-content: center;
+    align-items: center;
+    gap:420px;
+}
+.contato div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 404px;
+    height: 263px;
+}
+.contato h1{
+    font-weight: 900;
+    font-size: 36px;
+}
+.contato span{
+    font-weight: 500;
+    color: #767676;
+    display: flex;
+    align-content: center;
+    gap:4px;
+    font-size: 18px;
+}
+.contato button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D4ED8;
+    padding: 16px 32px 16px 32px;
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 12px;
+    gap: 12px;
+}
